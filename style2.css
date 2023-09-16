@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.sspan {
+    font-weight: bold;
+    padding: 30px;
+    margin: 10px;
+}
+
+.sdiv {
+    padding: 30px;
+    margin: 10px;
+
+}
+
+.p {
+    background-color: beige;
+}
+
+.p1 {
+    background-color: azure;
+}
+
+.p2 {
+    background-color: cornsilk;
+}
+
+.flex-container {
+    height: 400px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+}
+
+.flex-container>div {
+    background-color: white;
+    width: 23%;
+    border: 1px solid black;
+    height: 350px;
+    padding: 10px;
+}
+
+.cls1 {
+    background-image: url("1.jpg");
+
+
+}
+
+.cls2 {
+    background-image: url("2.jpg");
+}
+
+.cls3 {
+    background-image: url("3.jpg");
+}
+
+.cls4 {
+    background-image: url("4.jpg");
+}
+
+.btn:focus {
+    background-color: aqua;
+
+}
+
+.abody {
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+    margin: 10px;
+    background-color: cadetblue;
+
+
+}
+
+.div1 {
+    padding: 30px;
+    margin: 10px;
+}
+
+.div2 {
+    padding: 30px;
+    margin: 10px;
+}
+
+.div3 {
+    padding: 30px;
+    margin: 10px;
+}
+
+.div4 {
+    padding: 30px;
+    margin: 10px;
+}
+
+.img1 {
+    width: 500px;
+    height: 400px;
+}
+
+@media (max-width: 1250px) {
+    .container {
+        padding: 0 6rem;
+    }
+
+    @media (max-width :980px) {
+        .container {
+            max-width: 96rem;
+        }
+
+        @media(max-width:768px) {
+            .container {
+                max-width: 720px;
+            }

@@ -1,0 +1,287 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+nav {
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+    background: #1b9bff;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width:952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+
+    }
+
+    nav ul li a {
+        font-size: 16px;
+
+    }
+}
+
+@media (max-width:858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: #0082e6;
+    }
+    #chech:checked ~ ul{
+        left:0 ;
+    }
+
+}
+
+.body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("s\ img.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.span {
+    background-color: cyan;
+
+}
+
+.section {
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+    align-items: flex-end;
+    text-align: right;
+
+}
+
+.para {
+    background-color: white;
+    color: black;
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin: 30px;
+    text-align: right;
+    width: 450px;
+    height: 105px;
+}
+
+.landing {
+    background-color: darkslategrey;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin: 30px;
+    text-align: right;
+    width: 450px;
+    height: 150px;
+
+
+
+
+}
+
+.body1 {
+    background-image: url(sl.webp );
+    width: 100%;
+    height: 100vh;
+
+}
+
+.div {
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+    align-items: flex-end;
+    text-align: right;
+}
+
+
+
+.conbody {
+    background-image: url("conpage.jpg");
+    background-size: cover;
+}
+
+.conheader {
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    padding: 15px 30px;
+    margin: 30px;
+}
+
+.form {
+    text-align: right;
+}
+
+.sec1 {
+    padding: 20px;
+    margin: auto;
+    border-color: white;
+
+}
+
+.sec2 {
+    padding: 20px;
+    margin: auto;
+}
+
+.sec3 {
+    padding: 20px;
+    margin: auto;
+}
+
+.se {
+    width: 350px;
+}
+
+.sec4 {
+    padding: 20px;
+    margin: auto;
+
+
+}
+
+.sec5 {
+    padding: 50px;
+    margin: auto;
+}
+
+
+.box {
+    color: skyblue;
+    width: 350px;
+}
+
+.sec {
+    text-align: center;
+    width: 1965px;
+
+}
+
+.btn {
+    background-color: aqua;
+    color: aliceblue;
+    width: 100px;
+    height: 20px;
+}
+
+@media (max-width: 1250px) {
+    .container {
+        padding: 0 6rem;
+    }
+
+    @media (max-width :980px) {
+        .container {
+            max-width: 96rem;
+        }
+
+        @media(max-width:768px) {
+            .container {
+                max-width: 720px;
+            }
+
+            .sspan {
+                background-color: red;
+                color: brown;
+                font-weight: bold;
+                padding: 30px;
+                margin: 10px;
+            }
+
+            .sdiv {
+                padding: 30px;
+                margin: 10px;
+
+            }
+
+            .p {
+                background-color: beige;
+            }
+
+            .p1 {
+                background-color: azure;
+            }
+
+            .p2 {
+                background-color: cornsilk;
+            }
+        }
+    }
+}
